@@ -1,16 +1,13 @@
 #!/usr/bin/python3
-"""This is the amenity class"""
-from models.base_model import BaseModel, Base
-from sqlalchemy import Column, String, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
-from os import getenv
+"""Defines the Amenity class."""
+from models.base_model import BaseModel
 
 
-class Amenity(BaseModel, Base):
-    """This is the class for Amenity
+class Amenity(BaseModel):
+    """Represent an amenity.
+
     Attributes:
-        __tablename__: table Amenities
-        name: input name
+        name (str): The name of the amenity.
     """
-    __tablename__ = "amenities"
-    name = Column("name", String(128), nullable=False)
+
+    name = ""
