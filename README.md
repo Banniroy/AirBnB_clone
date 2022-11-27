@@ -1,4 +1,4 @@
-This is the AirBnB clone project. It’s is to deploy on our server a simple copy of the AirBnB website.
+This is the AirBnB clone project. It is to deploy on our server a simple copy of the AirBnB website.
 
 Only some of the features will be implemented to cover  all fundamental concepts of the higher level programming track.
 
@@ -26,7 +26,7 @@ In the AirBnB clone project it will be used to be able to manage the objects i.e
 
 •	Destroy an object
 
-•	
+
 
 The application will be built step by step staring with the console
 
